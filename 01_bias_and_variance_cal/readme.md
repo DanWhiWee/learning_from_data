@@ -2,7 +2,7 @@
 
 ### 1. 偏差与方差的定义
 
-&nbsp;&nbsp;偏差（Bias）与方差（bariance）的概念来自于样本外误差的分解（Decomposition of out-of-sample error）。样本外误差的定义如下所示，其中$g^{(\mathcal{D})}$为基于数据集$\mathcal{D}$得到的模型，$f$为真实的目标函数（未知），$\mathbb{E}_{\mathbf{x}}$表示基于$\mathbf{x}$的期望值（$\mathbf{x}$来自总体样本空间$\mathcal{X}$）:
+&nbsp;&nbsp;偏差（Bias）与方差（Variance）的概念来自于样本外误差的分解（Decomposition of out-of-sample error）。样本外误差的定义如下所示，其中$g^{(\mathcal{D})}$为基于数据集$\mathcal{D}$得到的模型，$f$为真实的目标函数（未知），$\mathbb{E}_{\mathbf{x}}$表示基于$\mathbf{x}$的期望值（$\mathbf{x}$来自总体样本空间$\mathcal{X}$）:
 $$
     E_{out}(g^{(\mathcal{D})}) = \mathbb{E}_\mathbf{x}[(g^{(\mathcal{D})}(\mathbf{x})-f(\mathbf{x}))]
 $$
